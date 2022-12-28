@@ -35,3 +35,16 @@ print(diff)
 
 setA.update(setB)
 print(setA)
+
+#copy
+setB = setA.copy() 
+
+print(setB)
+
+
+#a frozen set cannot be changed after its creation
+a = frozenset({1, 2, 3})
+#a.add(3)
+
+print(a)
+
