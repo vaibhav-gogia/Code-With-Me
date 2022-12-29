@@ -32,7 +32,17 @@ greeting = "Hello"
 for i in greeting:
     print(i)
 print("\n")
-if 'e' in greeting:
+if 'j' in greeting:
     print('yes')
 else:
     print("no")
+    
+my_string2 = '   Hello World    '
+print(my_string2)
+print(my_string2.strip())
+
+print(my_string2.upper())
+print(my_string2.lower())
+
+print(my_string2.startswith('   Hello'))
+print(my_string2.find('o'))
